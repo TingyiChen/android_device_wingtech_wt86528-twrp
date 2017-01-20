@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += charger charger_res_images
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dt.img:dt.img \
-    $(LOCAL_PATH)/kernel:kernel \
+    $(LOCAL_PATH)/zImage:kernel \
     $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom \
     $(LOCAL_PATH)/twrp.fstab:root/etc/twrp.fstab
 
